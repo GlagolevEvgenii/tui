@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_3646" data-name="Rechteck 3646" width="61.967" height="61.67" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="icon_gesundheit" transform="translate(-642 -3974)">
+    <circle id="Ellipse_309" data-name="Ellipse 309" cx="50" cy="50" r="50" transform="translate(642 3974)" fill="#70cbf4"/>
+    <g id="Gruppe_21116" data-name="Gruppe 21116" transform="translate(661.017 3994.021)">
+      <g id="Gruppe_21115" data-name="Gruppe 21115" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Pfad_33322" data-name="Pfad 33322" d="M60.48,52.775a4.35,4.35,0,0,0-6.126.375L43.792,65.214a4.94,4.94,0,0,1-3.686,1.655H30.394a1.434,1.434,0,0,1-1.455-1.253A1.388,1.388,0,0,1,30.321,64.1H38.8a4.31,4.31,0,0,0,4.363-4.061,4.188,4.188,0,0,0-4.189-4.323H27.807A17.48,17.48,0,0,0,9.041,59.5L.046,68.324a.147.147,0,0,0,0,.215L15.73,81.407l3.585-3.585h20.6a10.345,10.345,0,0,0,7.8-3.546L60.9,58.9a4.349,4.349,0,0,0-.422-6.126Z" transform="translate(0 -19.737)" fill="#fff"/>
+        <path id="Pfad_33323" data-name="Pfad 33323" d="M49.65,4.7c-9.383-14.356-34.724,7.011,0,25.951,34.724-18.907,9.41-40.28,0-25.951" transform="translate(-12.185 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_3647" data-name="Rechteck 3647" width="60" height="53.784" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="icon_positiv" transform="translate(-259 -4210)">
+    <circle id="Ellipse_308" data-name="Ellipse 308" cx="50" cy="50" r="50" transform="translate(259 4210)" fill="#70cbf4"/>
+    <g id="Gruppe_21117" data-name="Gruppe 21117" transform="translate(279 4231)">
+      <g id="Gruppe_21117-2" data-name="Gruppe 21117" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Pfad_33324" data-name="Pfad 33324" d="M59.975,23.857c.374-4.227-3.566-5.459-5.128-5.459q-9.088,0-18.179,0c.872-1.9,1.936-6.93.6-13.864C36.736,1.788,35.118-.036,33.058,0a3.5,3.5,0,0,0-3.413,2.905,53.057,53.057,0,0,1-1.02,5.964c-1.305,5.464-8.286,12.678-12.7,15.194V50.756a18.523,18.523,0,0,0,9.71,2.22c5.48-.106,21.13-.014,23.966-.033a5.15,5.15,0,0,0,4.972-3.393c1.315-3.309-2.076-4.963-2.076-4.963s3.713.184,4.561-3.145c.87-3.418-2.544-4.77-2.544-4.77,2.31-.252,3.787-.853,4.346-2.934.657-2.451-.921-4.293-3.416-5.359.378-.036,4.19-.653,4.534-4.521Zm-47.9-4.036H1.882A1.882,1.882,0,0,0,0,21.7V51.9a1.883,1.883,0,0,0,1.882,1.882h10.2A1.883,1.883,0,0,0,13.961,51.9V21.7A1.882,1.882,0,0,0,12.079,19.822Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
