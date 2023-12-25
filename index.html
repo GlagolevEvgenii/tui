@@ -2,1258 +2,519 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="telephone=no" name="format-detection"/>
-    <title>Tui</title>
-    <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff2" rel="preload"
-          type="font/woff2">
-    <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff2" rel="preload"
-          type="font/woff2">
-    <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff2" rel="preload"
-          type="font/woff2">
-
-    <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon">
-    <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/favicon.svg" rel="thumbnail" type="image/svg+xml">
-    <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/favicon.ico" rel="alternate icon">
-    <link color="#D40E14" href="https://cloud.tui.com/ui/ui-assets/v1/favicons/safari-pinned-tab.svg" rel="mask-icon">
-    <link href="css/critical.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <meta content="telephone=no" name="format-detection"/>
+  <title>Tui</title>
+  <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff2"
+        rel="preload"
+        type="font/woff2">
+  <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff2" rel="preload"
+        type="font/woff2">
+  <link as="font" crossorigin href="https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff2" rel="preload"
+        type="font/woff2">
+  
+  <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+  <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/favicon.svg" rel="thumbnail" type="image/svg+xml">
+  <link href="https://cloud.tui.com/ui/ui-assets/v1/favicons/favicon.ico" rel="alternate icon">
+  <link color="#D40E14" href="https://cloud.tui.com/ui/ui-assets/v1/favicons/safari-pinned-tab.svg" rel="mask-icon">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/common.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <header>
-    <nav class="nav">
-        <div class="container container--nav">
-            <button
-                    aria-label="link"
-                    class="prg-button"
-                    onclick="window.location.href='https://www.tui.com/';"
-                    title="https://www.tui.com/"
-            >
-                <img
-                        alt="TUI logo"
-                        class="logo-hero"
-                        height="53"
-                        src="images/logo-transparent.svg"
-                        width="118"
-                >
-            </button>
-            <ul class="nav-list list">
-                <li class="nav-list--item">
-                    <a
-                            class="nav-list--link link"
-                            href="#geschaeftigste-flughaefen-europas"
-                            tabindex="0"
-                    >Geschäftigste<br>Flughäfen Europas
-                        <svg
-                                height="120"
-                                viewbox="0 0 120 120"
-                                width="120"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <polyline
-                                    fill="none"
-                                    points="41.4,58.9 94.2,87 41.4,115.1"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="8"
-                            ></polyline>
-                        </svg>
-                    </a>
-                </li>
-                <li class="nav-list--item">
-                    <a
-                            class="nav-list--link link"
-                            href="#gluecksgefuehle-am-flughafen"
-                            tabindex="0"
-                    >Glücksgefühle am<br>Flughafen
-                        <svg
-                                height="120"
-                                viewbox="0 0 120 120"
-                                width="120"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <polyline
-                                    fill="none"
-                                    points="41.4,58.9 94.2,87 41.4,115.1"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="8"
-                            ></polyline>
-                        </svg>
-                    </a>
-                </li>
-                <li class="nav-list--item">
-                    <a
-                            class="nav-list--link link"
-                            href="#europas-puenktlichste-flughaefen"
-                            tabindex="0"
-                    >Europas pünktlichste<br>Flughäfen
-                        <svg
-                                height="120"
-                                viewbox="0 0 120 120"
-                                width="120"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <polyline
-                                    fill="none"
-                                    points="41.4,58.9 94.2,87 41.4,115.1"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="8"
-                            ></polyline>
-                        </svg>
-                    </a>
-                </li>
-                <li class="nav-list--item">
-                    <a
-                            class="nav-list--link link"
-                            href="#deutschlands-flugjahr-2022"
-                            tabindex="0"
-                    >Deutschlands Flugjahr<br>2022
-                        <svg
-                                height="120"
-                                viewbox="0 0 120 120"
-                                width="120"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <polyline
-                                    fill="none"
-                                    points="41.4,58.9 94.2,87 41.4,115.1"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="8"
-                            ></polyline>
-                        </svg>
-                    </a>
-                </li>
-                <li class="nav-list--item">
-                    <a
-                            class="nav-list--link link"
-                            href="#anbindungscheck-deutschland"
-                            tabindex="0"
-                    >Anbindungscheck<br>Deutschland
-                        <svg
-                                height="120"
-                                viewbox="0 0 120 120"
-                                width="120"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <polyline
-                                    fill="none"
-                                    points="41.4,58.9 94.2,87 41.4,115.1"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="8"
-                            ></polyline>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="mobile-menu__bar">
-        <div class="container container--mobile-bar">
-            <button
-                    aria-label="link"
-                    class="prg-button"
-                    onclick="window.location.href='https://www.tui.com/';"
-                    title="https://www.tui.com/"
-            >
-                <img
-                        alt="TUI logo"
-                        class="logo-img--transparent"
-                        height="31"
-                        src="images/logo-transparent.svg"
-                        width="71"
-                >
-            </button>
-            <button
-                    aria-label="menu-button"
-                    class="hamburger hamburger__stand"
-                    data-menu-button
-                    type="button"
-            >
+  <nav class="nav">
+    <div class="container container--nav">
+      <a
+        class="prg-button"
+        href='https://www.tui.com/'
+      
+      >
+        <img
+          alt="TUI logo"
+          class="logo-hero"
+          height="53"
+          src="images/logo-transparent.svg"
+          width="119"
+        >
+      </a>
+      <ul class="nav-list list">
+        <li class="nav-list--item">
+          <a
+            class="nav-list--link link"
+            href="#effekte-des-reisens-auf-die-mentale-gesundheit"
+            tabindex="0"
+          >Effekte des Reisens auf<br>die mentale Gesundheit >
+          </a>
+        </li>
+        <li class="nav-list--item">
+          <a
+            class="nav-list--link link"
+            href="#so-erholen-sich-die-deutschen"
+            tabindex="0"
+          >So erholen sich <br>die Deutschen >
+          </a>
+        </li>
+        <li class="nav-list--item">
+          <a
+            class="nav-list--link link"
+            href="#urlaub-im-blauen"
+            tabindex="0"
+          >Urlaub im<br>Blauen >
+          </a>
+        </li>
+        <li class="nav-list--item">
+          <a
+            class="nav-list--link link"
+            href="#urlaub-im-grünen"
+            tabindex="0"
+          >Urlaub im <br>Grünen >
+          </a>
+        </li>
+        <li class="nav-list--item">
+          <a
+            class="nav-list--link link"
+            href="#fazit-balance-statt-ballast"
+            tabindex="0"
+          >Fazit: Balance<br> statt Ballast >
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="mobile-menu__bar">
+    <div class="container container--mobile-bar">
+      <a
+        class="prg-button"
+        href='https://www.tui.com/'
+      >
+        <img
+          alt="TUI logo"
+          class="logo-img--transparent"
+          height="31"
+          src="images/logo-transparent.svg"
+          width="71"
+        >
+      </a>
+      <button
+        aria-label="menu-button"
+        class="hamburger hamburger__stand"
+        data-menu-button
+        type="button"
+      >
             <span class="hamburger__box">
               <span class="hamburger__inner"></span>
             </span>
-            </button>
-        </div>
+      </button>
     </div>
-    <div class="mobile-menu" data-menu>
-        <nav class="navigation__mobile-menu">
-            <ul class="list">
-                <li class="navigation__item">
-                    <a
-                            class="navigation__link link"
-                            href="#geschaeftigste-flughaefen-europas"
-                    >Geschäftigste Flughäfen Europas</a
-                    >
-                </li>
-                <li class="navigation__item">
-                    <a
-                            class="navigation__link link"
-                            href="#gluecksgefuehle-am-flughafen"
-                    >Glücksgefühle am Flughafen</a
-                    >
-                </li>
-                <li class="navigation__item">
-                    <a
-                            class="navigation__link link"
-                            href="#europas-puenktlichste-flughaefen"
-                    >Europas pünktlichste Flughäfen</a
-                    >
-                </li>
-
-                <li class="navigation__item">
-                    <a
-                            class="navigation__link link"
-                            href="#deutschlands-flugjahr-2022"
-                    >Deutschlands Flugjahr 2022
-                    </a>
-                </li>
-
-                <li class="navigation__item">
-                    <a
-                        class="navigation__link link"
-                        href="#anbindungscheck-deutschland"
-                    >Anbindungscheck Deutschland
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+  </div>
+  <div class="mobile-menu" data-menu>
+    <nav class="navigation__mobile-menu">
+      <ul class="list">
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#effekte-des-reisens-auf-die-mentale-gesundheit"
+            tabindex="0"
+          >Effekte des Reisens auf die mentale Gesundheit
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#so-erholen-sich-die-deutschen"
+            tabindex="0"
+          >So erholen sich die Deutschen
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#urlaub-im-blauen"
+            tabindex="0"
+          >Urlaub im Blauen
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#urlaub-im-grünen"
+            tabindex="0"
+          >Urlaub im Grünen
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#fazit-balance-statt-ballast"
+            tabindex="0"
+          >Fazit: Balance statt Ballast
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 <main>
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">
-                Passagiere, Pünktlichkeit, Preise:
-                <span>Flughafen-Report Deutschland & Europa </span>
-            </h1>
+  <section class="main-section">
+    <div class="container">
+      <h1 class="main-section-title">
+        Welt erkunden, mental gesunden?
+        <span>Der große TUI Report: Reisen & Mental Health</span>
+      </h1>
+    </div>
+  </section>
+  
+  <section class="section section-gradient">
+    <div class="container container_small">
+      <p>
+        Wenn wir den Büro- gegen den Liegestuhl, die To-Do- gegen die Bucket-List und die Rushhour gegen die Ruheoase
+        tauschen, dann heißt es: endlich <a href="https://www.tui.com/urlaub/" target="_blank"> Urlaub!</a
+      > Laut der aktuellen Statista-Studie „Reisen & Tourismus 2022” <span class="bold">reisen 63
+        % der deutschen Urlauber, um sich zu entspannen und zu regenerieren</span> . In Zeiten von Meditations-Apps,
+        Achtsamkeits-Kursen und Burnout-Prävention ist bekannt: Entspannung ist gut für die Gesundheit – sowohl für die
+        körperliche als auch die mentale.
+      </p>
+    </div>
+    <div class="container">
+      <figure class="section-figure">
+        <picture>
+          <source type="image/avif" srcset="
+                  ./images/teaser_opener_mental-health.avif    1x,
+                  ./images/teaser_opener_mental-health@2x.avif 2x
+                ">
+          <source type="image/webp" srcset="
+                  ./images/teaser_opener_mental-health.webp    1x,
+                  ./images/teaser_opener_mental-health@2x.webp 2x
+                ">
+          <img src="./images/teaser_opener_mental-health.jpg" alt="teaser_opener_mental-health" width="644" height="437"
+               loading="lazy"
+               decoding="async" class="rounded">
+        </picture>
+        <figcaption class="section-figure__caption rounded">
+          <p>
+            Im Jahr 2022 erreichten laut des Psycho-Reports der Krankenkasse DAK die Fehltage aufgrund <strong>psychischer
+            Erkrankungen ihren Höchststand</strong>: Mit 301 Ausfalltagen je 100 Versicherte waren die Fehlzeiten
+            aufgrund von
+            Krankheiten wie Depressionen, chronischer Erschöpfung und Ängsten 48 % höher als vor einem Jahrzehnt.
+          
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="container container_small">
+      <p>
+        Welchen Einfluss hat das Reisen auf die mentale Gesundheit? Wie gut schalten die Deutschen in ihrem Urlaub ab
+        und welche Reiseziele und Umgebungen sind dem geistigen Wohlbefinden besonders zuträglich? Die Antworten findest
+        Du im TUI Report: Reisen & Mental Health.
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container container_small">
+      <h2 class="section-title" id="1">
+        Urlaub gut, Psyche gut? Effekte des Reisens auf die mentale Gesundheit
+      </h2>
+      <p>Von Stress über Burnout bis hin zur Depression: Mentale Gesundheit ist schon lange kein Randthema mehr. Über 15
+        % der Arbeitsunfähigkeitstage 2022 waren durch psychische Erkrankungen bedingt. Damit sind psychische
+        Erkrankungen der dritthäufigste Grund für einen Fehltag bei der Arbeit.
+      
+      </p>
+      <div class="section-tip section-tip_info rounded">
+        <div class="section-tip__icon section-tip__icon_info">
+          <img src="images/icon-info.svg" width="45" height="45" alt="">
         </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <p class="bold">
-                Dein Kopf ist schon im wohlverdienten Urlaub, doch Dich und Dein
-                Reiseziel trennen noch etliche Kilometer? Dass Du Dich bei der
-                Anreise dafür entscheidest,
-                <a href="https://www.tui.com/flug/" target="_blank"
-                >Flüge zu buchen</a
-                >, ist dabei statistisch gesehen sehr wahrscheinlich: Das Flugzeug
-                ist laut einer Umfrage des Deutschen Reiseverbandes aus dem Jahr
-                2022 mit 41 Prozent noch immer das zweitbeliebteste Verkehrsmittel
-                für die Urlaubsreisen der Deutschen – das Auto lag als beliebtestes
-                Transportmittel mit 47 Prozent vorne.
-            </p>
-        </div>
-        <div class="container">
-            <figure class="section-figure">
-                <img
-                    alt="Einleitung"
-                    class="rounded"
-                    decoding="async"
-                    height="577"
-                    loading="lazy"
-                    src="images/image_einleitung.jpg"
-                    width="644"
-                >
-                <figcaption class="section-figure__caption rounded">
-                    <p>
-                        Insgesamt starteten und landeten im vergangenen Jahr rund
-                        <strong>165,1 Millionen Gäste an deutschen Airports</strong>.
-                        Verglichen mit dem Jahr 2021 ist das ein Plus von über 110
-                        Prozent. Der eigene Kontinent steht bei den Reisenden aus der
-                        Bundesrepublik dabei noch immer am höchsten im Kurs: Die
-                        Mehrheit der Passagiere (70,7 Prozent) flog ein Reiseziel in
-                        Europa an oder kam aus einer europäischen Destination zurück.
-                    </p>
-                    <p>
-                        Im großen Flughafen-Report haben wir die
-                        <button
-                                aria-label="link"
-                                class="prg-button"
-                                onclick="window.location.href='https://www.tui.com/service-kontakt/flug/flughaefen';"
-                                title="https://www.tui.com/service-kontakt/flug/flughaefen"
-                        >
-                            Flughäfen
-                        </button>
-                        <strong
-                        >Deutschlands und den europäischen Flugverkehr genauer unter
-                            die Lupe genommen</strong
-                        >
-                        und beantworten Dir Fragen, wie: Welche sind die pünktlichsten
-                        Flughäfen Europas? An welchen deutschen Flughäfen fühlen sich
-                        Urlauber besonders wohl und welcher Airport im Bundesgebiet
-                        schneidet in puncto Anbindung am besten ab?
-                    </p>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="container container_small">
-            <h2 class="section-title" id="geschaeftigste-flughaefen-europas">
-                Europa aus der Vogelperspektive: An diesen Flughäfen wird am meisten
-                geflogen
-            </h2>
-            <p>
-                Auf dem zweitkleinsten Kontinent geht es geschäftig zu – an Land und
-                in der Luft: Als beliebtes Reiseziel für Kulturfans und
-                Geschäftsreisende aus aller Welt ist es ein zentraler Knotenpunkt im
-                weltweiten Flugverkehr. Doch auch die Europäer selbst haben noch
-                viel „Welt” zu entdecken – und so führt der Weg in den Urlaub oder
-                zum nächsten Geschäftstermin häufig über einen europäischen
-                Flughafen.
-            </p>
-            <p>
-                Laut der Luftverkehrsstatistik des Frankfurt Airports verzeichneten
-                die zehn geschäftigsten Flughäfen Europas im
-                <strong
-                >Jahr 2022 gemeinsam mehr als 3,2 Millionen Flugbewegungen</strong
-                >
-                (Starts und Landungen zusammengezählt). Der
-                <strong
-                >Flughafen Istanbul liegt mit 418.339 Flugbewegungen an der
-                    europäischen Spitze</strong
-                >
-                und weist damit mehr als doppelt so viele Flugbewegungen wie der
-                Flughafen Rom auf, der den zehnten Platz des Rankings belegt. Die
-                Hauptstadt des Vereinigten Königreichs hat es gleich mit zwei
-                Flughäfen, dem etwas bekannteren London Heathrow und dem London
-                Gatwick, in die Top 10 der geschäftigsten Flughäfen Europas
-                geschafft.
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
-                  ./img/infografiken/die-top-zehn-geschaeftigsten-flughaefen-europas.svg
-                "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Die top zehn geschaeftigsten flughaefen europas"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="777"
-                            loading="lazy"
-                            src="./img/infografiken/die-top-zehn-geschaeftigsten-flughaefen-europas@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-top-zehn-geschaeftigsten-flughaefen-europas@2x.jpg" alt="Die top zehn geschaeftigsten flughaefen europas"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
-        </div>
-        <div class="container container_small">
-            <p>
-                Die lebhafte Atmosphäre an Flughäfen ist einzigartig: Gespannte
-                Vorfreude gemischt mit organisiertem Chaos. Während die einen diesen
-                lebendigen Trubel genießen, stellen die einzelnen Stationen einer
-                Flugreise andere vor Herausforderungen. An welchen Punkten – von der
-                Flugbuchung bis zur Landung im Zielgebiet – sind Passagiere
-                besonders zufrieden und wo gibt es noch Verbesserungspotenzial?
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <h2 class="section-title" id="gluecksgefuehle-am-flughafen">
-                Happiness Report: Passagier-Zufriedenheit auf Flugreisen
-            </h2>
-            <p>
-                Wer sich auf dem Weg in den Urlaub befindet, möchte eine Sache ganz
-                sicher vermeiden: Stress. Laut des DAK-Urlaubsreports 2022 zählt
-                <strong
-                >Stress bei der An- und Abreise mit 12 Prozent zu einem der
-                    Gründe, warum sich Menschen in ihrem Urlaub nicht erholen
-                    können</strong
-                >. Möglichst komfortabel bzw. praktisch soll also bereits die
-                Reiseplanung ablaufen, so der IATA (International Air Transport
-                Association) Global Passenger Survey 2022.
-            </p>
-            <p>
-                Auf eine lange und nervenaufreibende Anreise zum Flughafen möchten
-                wohl die meisten Urlauber verzichten. So ist es nicht verwunderlich,
-                dass laut des IATA Global Passenger Surveys der
-                <strong
-                >meistgenannte Faktor für die Wahl eines Flughafens die Nähe
-                    ist</strong
-                >. Das ist nicht nur für Urlauber mit schwerem Gepäck angenehm,
-                sondern auch für Geschäftsreisende, die oft kurzfristig verreisen
-                und einen engen Zeitplan einhalten müssen.
-            </p>
-            <p>
-                <strong
-                >Das sind die Top 3 der Kriterien, nach denen Personen ihre
-                    Flughafenwahl treffen:</strong
-                >
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
-                  ./img/infografiken/top-drei-gruende-fuer-die-flughafenwahl.avif    1x,
-                  ./img/infografiken/top-drei-gruende-fuer-die-flughafenwahl@2x.avif 2x
-                "
-                            type="image/avif"
-                    >
-                    <source
-                            srcset="
-                  ./img/infografiken/top-drei-gruende-fuer-die-flughafenwahl.webp    1x,
-                  ./img/infografiken/top-drei-gruende-fuer-die-flughafenwahl@2x.webp 2x
-                "
-                            type="image/webp"
-                    >
-                    <img
-                            alt="Top drei gruende fuer die flughafenwahl"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="581"
-                            loading="lazy"
-                            src="./img/infografiken/top-drei-gruende-fuer-die-flughafenwahl.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed"></div>
-        </div>
-        <div class="container container_small">
-            <p>
-                Ist die Wahl des Flughafens getroffen und der Tag der Abreise da,
-                trennen die Passagiere nur noch der Airport-Aufenthalt und der Flug
-                von ihrem Reiseziel. Lange Warteschlangen, unzureichende
-                Beschilderung oder
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/blog/die-reise-eines-koffers';"
-                        title="https://www.tui.com/blog/die-reise-eines-koffers"
-                >
-                    verlorenes Gepäck
-                </button>
-                – unvorhergesehene
-                Herausforderungen wie diese können Reisende schnell auf eine
-                emotionale Achterbahnfahrt befördern. Mit welchen Stationen des
-                Flughafens-Aufenthalts sind Reisende besonders zufrieden und wo sind
-                die negativen Emotionen am größten?
-            </p>
-            <p>
-                Vom Check-in bis zur Gepäckausgabe am Zielflughafen – die Passenger
-                IT Insights des Spezialisten für Kommunikations- und
-                Informationstechnologie im Luftverkehr SITA zeigen das
-                <strong
-                >Stimmungsbild von Passagieren weltweit während ihrer Zeit am
-                    Airport</strong
-                >. Das Fazit vorweg: Trotz ungeliebter Stationen, wie
-                Sicherheitskontrolle (26 Prozent negative Emotionen) und
-                Gepäckausgabe (16 Prozent negative Emotionen),
-                <strong>überwiegt die Reisefreude!</strong>
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
-                  ./img/infografiken/boarding-top-security-flop-high-und-lowlights-von-passagieren-auf-flugreisen.svg
-                "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Boarding top security flop high und lowlights von passagieren auf flugreisen"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="1034"
-                            loading="lazy"
-                            src="./img/infografiken/boarding-top-security-flop-high-und-lowlights-von-passagieren-auf-flugreisen@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/boarding-top-security-flop-high-und-lowlights-von-passagieren-auf-flugreisen@2x.jpg" alt="Boarding top security flop high und lowlights von passagieren auf flugreisen"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
-        </div>
-        <div class="container container_small">
-            <div class="section-tip rounded">
-                <div class="section-tip__icon">
-                    <img alt="" height="59" src="img/icons/tipp.svg" width="51">
-                </div>
-                <div>
-                    <p class="mb-24">
-                        <strong>Tipp:</strong> Einige deutsche Flughäfen bieten die
-                        Möglichkeit, vorab Zeitfenster für den Security-Check zu buchen
-                        und somit die unbeliebte Kontrolle schneller hinter sich zu
-                        bringen. Der Berliner Flughafen machte im August 2022 den Anfang
-                        und sechs weitere deutsche Airports folgten seinem Beispiel. An
-                        diesen sieben deutschen Flughäfen kannst Du aktuell online ein
-                        Zeitfenster für die Sicherheitskontrolle reservieren:
-                    </p>
-                    <ul>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/berlin-brandenburg-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/berlin-brandenburg-flughafen"
-                            >
-                                Berlin Brandenburg: „BER Runway”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/frankfurt-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/frankfurt-flughafen"
-                            >
-                                Frankfurt „FRA SmartWay”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/hamburg-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/hamburg-flughafen"
-                            >
-                                Hamburg „Slot & Fly”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/duesseldorf-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/duesseldorf-flughafen"
-                            >
-                                Düsseldorf „DUSgateway”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/hannover-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/hannover-flughafen"
-                            >
-                                Hannover „HAJWAY”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/muenchen-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/muenchen-flughafen"
-                            >
-                                München „Express Queue”
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                    aria-label="link"
-                                    class="prg-button"
-                                    onclick="window.location.href='https://www.tui.com/service-kontakt/flug/koeln-bonn-flughafen';"
-                                    title="https://www.tui.com/service-kontakt/flug/koeln-bonn-flughafen"
-                            >
-                                Köln/Bonn „CGNGateWay”
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <p>
-                Die meisten Reisenden empfinden den Flughafenaufenthalt
-                grundsätzlich als positives Erlebnis und genießen die Vorfreude auf
-                die anstehende Reise. Die
-                <strong
-                >Zeit zwischen den Sicherheitskontrollen und dem Boarding</strong
-                >
-                (90 Prozent Happiness), das <strong>Boarding selbst</strong> (91
-                Prozent Happiness) und <strong>der Flug</strong> (90 Prozent
-                Happiness) sind die
-                <strong>beliebtesten Stationen</strong>
-                der befragten Passagiere. Die Sicherheitskontrolle empfinden die
-                Befragten als die unangenehmste Station auf ihrer Flugreise (26
-                Prozent negative Emotionen).
-            </p>
-            <p>
-                Wenn jedoch Flugverspätungen die Reisepläne durchkreuzen, dürfte die
-                Zufriedenheit der Urlauber auch an diesen Stationen am seidenen
-                Faden hängen. Ganz plötzlich stehen die ersten Tage des Urlaubs oder
-                der wichtige Geschäftstermin auf dem Spiel. Du willst tiefer in das
-                Thema eintauchen und bist auf der Suche nach Tipps? Dann schau Dir
-                unsere Ratgeber zu den Themen
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/flugverspaetung-ratgeber/';"
-                        title="https://www.tui.com/flugverspaetung-ratgeber/"
-                >
-                    Flugverspätungen
-                </button>
-                oder
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/blog/bestens-vorbereitet-fuer-den-abflug-so-startest-du-entspannt-in-den-urlaub/';"
-                        title="https://www.tui.com/blog/bestens-vorbereitet-fuer-den-abflug-so-startest-du-entspannt-in-den-urlaub/"
-                >
-                    Flugvorbereitung
-                </button>
-                an.
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <h2 class="section-title" id="europas-puenktlichste-flughaefen">
-                Ohne Frust in den Flieger: Die pünktlichsten Flughäfen Europas
-            </h2>
-            <p>
-                Laut des Jahresrückblicks von AirHelp gab es allein
-                <strong
-                >im Jahr 2022 mehr als 225 Millionen verspätete Fluggäste</strong
-                >; jeder dritte Fluggast konnte nur mit Verspätung vom Rollfeld
-                starten. In den Sommermonaten Juni und Juli waren sogar mehr als 40
-                Prozent der Passagiere von Flugproblemen betroffen. Welche Auslöser
-                stecken hinter Verspätungen an europäischen Flughäfen?
-            </p>
-        </div>
-        <div class="container container_small">
-            <p class="mb-0">
-                <strong
-                >Diese Beispiel-Szenarien können sich hinter den verschiedenen
-                    Verspätungsgründen verbergen:</strong
-                >
-            </p>
-            <div class="section-lists-wrapper">
-                <div class="section-lists-wrapper__list">
-                    <h3 class="section-subtitle">Fluggesellschaften:</h3>
-                    <ul>
-                        <li><span>Personalausfälle der Crew</span></li>
-                        <li>
-                  <span
-                  >technische Fehler an der Maschine oder<br>dem
-                    Computer-System</span
-                  >
-                        </li>
-                        <li>
-                  <span
-                  >vorangegangene Verspätungen durch<br>enge Pufferzeiten im
-                    Flugplan</span
-                  >
-                        </li>
-                    </ul>
-                </div>
-                <div class="section-lists-wrapper__list">
-                    <h3 class="section-subtitle">Flugsicherung:</h3>
-                    <ul class="section-lists-wrapper__list">
-                        <li>
-                  <span
-                  >keine Erteilung der Startgenehmigung<br>aus
-                    Sicherheitsgründen</span
-                  >
-                        </li>
-                        <li>
-                  <span
-                  >keine Erteilung der Landegenehmigung<br>aus
-                    Sicherheitsgründen</span
-                  >
-                        </li>
-                    </ul>
-                </div>
-                <div class="section-lists-wrapper__list">
-                    <h3 class="section-subtitle">Flughäfen:</h3>
-                    <ul class="section-lists-wrapper__list">
-                        <li>
-                  <span
-                  >Verzögerung beim Ein- und Aussteigen<br>durch fehlende
-                    Fluggastbrücke</span
-                  >
-                        </li>
-                        <li>
-                  <span
-                  >zu wenige Fahrzeuge oder Mitarbeiter für<br>die Fracht-
-                    oder Gepäckverladung</span
-                  >
-                        </li>
-                    </ul>
-                </div>
-                <div class="section-lists-wrapper__list">
-                    <h3 class="section-subtitle">Security:</h3>
-                    <ul class="section-lists-wrapper__list">
-                        <li>
-                  <span
-                  >Gefahrenlage erfordert längere oder<br>zusätzliche
-                    Kontrollen</span
-                  >
-                        </li>
-                        <li>
-                  <span
-                  >zu wenig Personal oder technische Fehler<br>bei der
-                    Überprüfung</span
-                  >
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <p>
-                <strong>Erfreulich:</strong> Laut des globalen Reisedaten-Anbieters
-                OAG Aviation Worldwide gab es im Jahr 2022 einige Flughäfen, bei
-                denen der Prozentsatz der pünktlichen Flüge bei knapp 80 Prozent
-                oder mehr lag. Als verspätet galten Flüge bei dieser Erhebung erst,
-                wenn der Abflug oder die Ankunft mehr als 15 Minuten nach oder vor
-                geplanter Start- oder Landezeit stattfand.
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
-                  ./img/infografiken/die-sieben-puenktlichsten-flughaefen-in-europa.svg
-                "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Die sieben puenktlichsten flughaefen in Europa"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="733"
-                            loading="lazy"
-                            src="./img/infografiken/die-sieben-puenktlichsten-flughaefen-in-europa@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-sieben-puenktlichsten-flughaefen-in-europa@2x.jpg" alt="Die sieben puenktlichsten flughaefen in Europa"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
-        </div>
-        <div class="container container_small">
-            <p>
-                Ein Land, das gleich drei besonders pünktliche Flughäfen vorweisen
-                kann, ist Norwegen. In die Top 3 haben es jedoch andere Länder
-                geschafft: Malta, Irland und Deutschland. An der Spitze des Rankings
-                steht mit über <strong>84 Prozent pünktlichen Flügen der</strong>
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/service-kontakt/flug/stuttgart-flughafen';"
-                        title="https://www.tui.com/service-kontakt/flug/stuttgart-flughafen"
-                >
-                    Flughafen Stuttgart
-                </button>
-                .
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <h2 class="section-title" id="deutschlands-flugjahr-2022">
-                Busy im Bundesgebiet: Deutschlands Flugjahr 2022 in Zahlen
-            </h2>
-            <p>
-                Im vergangenen Jahr gab die deutsche Bevölkerung doppelt so viel
-                Geld für ihr Reiseglück aus, wie noch im Jahr 2021. Laut der
-                Prognose der aktuellen Statista Market Insights könnten die
-                geschätzten Umsätze der Tourismusbranche in Deutschland mit 62
-                Milliarden Euro sogar das Vorkrisenniveau übertreffen.
-            </p>
-            <p>
-                Dieser Aufschwung zeigt sich auch beim Blick auf die Zahlen des
-                deutschen Flugverkehrs: Dieser konnte sich 2022 wieder deutlich von
-                den Auswirkungen der Pandemie erholen – laut des aktuellen
-                Mobilitätsberichts der Deutschen Flugsicherung nahm die
-                <strong
-                >Anzahl der Flüge im Vergleich zu 2021 um mehr als 50
-                    Prozent</strong
-                >
-                zu. Dieser große Aufschwung sei vor allem auf die höhere Zahl an
-                Überflügen zurückzuführen, also die Flüge, die lediglich den
-                deutschen Luftraum passieren, ohne in Deutschland zu starten oder zu
-                landen.
-            </p>
-            <p>
-                <strong>Auffällig:</strong> Der Trend zu weniger innerdeutschen
-                Flügen setzte sich auch im Jahr 2022 fort und
-                <strong
-                >der Anteil der Inlandsflüge sank auf einen marginalen Anteil von
-                    acht Prozent</strong
-                >. Entdecke weitere spannende Fakten in unserer großen
-                Jahresübersicht des deutschen Flugverkehrs 2022:
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
-                  ./img/infografiken/deutschlands-flugjahr-2022-in-zahlen.svg
-                "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Deutschlands flugjahr 2022 in zahlen"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="1314"
-                            loading="lazy"
-                            src="./img/infografiken/deutschlands-flugjahr-2022-in-zahlen@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/deutschlands-flugjahr-2022-in-zahlen@2x.jpg" alt="Deutschlands flugjahr 2022 in zahlen"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
-        </div>
-        <div class="container container_small">
-            <p>
-                <strong>Wenig überraschend:</strong> Die Flughäfen der größten
-                deutschen Städte zählen ebenfalls zu den passagierreichsten. Die
-                meisten Fluggäste beherbergte der Flughafen Frankfurt am Main:
-                <strong
-                >Fast 49 Millionen Menschen sind 2022 am Frankfurter Flughafen
-                    gestartet oder gelandet.</strong
-                >
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <h2 class="section-title">
-                Google Ranking: Deutschlands beliebteste Flughäfen
-            </h2>
-            <p>
-                Wie zufrieden sind die Passagiere an den internationalen und
-                regionalen Flughäfen in Deutschland? Wir haben die
-                Google-Rezensionen der deutschen Airports unter die Lupe genommen
-                und die zehn beliebtesten gekürt: Gewinner unter den internationalen
-                Flughäfen mit einer durchschnittlichen Bewertung von 4,3 von 5
-                Sternen ist der
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/service-kontakt/flug/nuernberg-flughafen';"
-                        title="https://www.tui.com/service-kontakt/flug/nuernberg-flughafen"
-                >
-                    Flughafen Nürnberg
-                </button>
-                . Zwar weist auch der
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen';"
-                        title="https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen"
-                >
-                    Flughafen Münster/Osnabrück
-                </button>
-                eine Durchschnittsbewertung von 4,3 auf, er hat aber mit 1.380
-                deutlich weniger Bewertung als Nürnberg und landet darum auf Platz
-                2.
-            </p>
-        </div>
-        <div class="container">
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
+        <p>
+          Ein Ansatz zur Verbesserung der mentalen Gesundheit lautet der Krankenkasse AOK zufolge: Erholung. Demnach ist
+          es essentiell, die <strong> „Erholungskompetenz”</strong> zu verbessern, um Stress nachhaltig zu bewältigen.
+          Die
+          Erholungskompetenz bezeichnet dabei die Fähigkeit einer Person, Erholungsräume wie Pausen und Urlaube zu
+          nutzen, um die eigene Stressresilienz und das Wohlbefinden zu stärken.
+        </p>
+      </div>
+      <p>Gibt es ein Erfolgsrezept für Erholung? Nach dem erprobten DRAMMA-Modell aus der Arbeitspsychologie ja! Das
+        Akronym „DRAMMA” steht dabei für die sechs Dimensionen der Erholung:
+      </p>
+      <ul class="custom-list">
+        <li class="custom-list-item">
+          D wie Detachment <strong>(Loslösung)</strong>
+        </li>
+        <li class="custom-list-item">
+          R wie Relaxation <strong>(Entspannung)</strong>
+        </li>
+        <li class="custom-list-item">
+          A wie Autonomy <strong>(Selbstbestimmung)</strong>
+        </li>
+        <li class="custom-list-item">
+          M wie Mastery <strong>(Meisterschaft)</strong>: Herausforderungen bewältigen
+        </li>
+        <li class="custom-list-item">
+          M wie Meaningfulness <strong>(Sinnhaftigkeit)</strong>
+        </li>
+        <li class="custom-list-item">
+          A wie Affiliation <strong>(Zusammengehörigkeit)</strong>
+        </li>
+      
+      </ul>
+    
+    </div>
+  </section>
+  <section class="section">
+    <div class="container container_small">
+      <h2 class="section-title">
+        Google Ranking: Deutschlands beliebteste Flughäfen
+      </h2>
+    </div>
+  </section>
+  
+  
+  <section class="section">
+    <div class="container container_small">
+      <h2 class="section-title">
+        Google Ranking: Deutschlands beliebteste Flughäfen
+      </h2>
+      <p>
+        Wie zufrieden sind die Passagiere an den internationalen und
+        regionalen Flughäfen in Deutschland? Wir haben die
+        Google-Rezensionen der deutschen Airports unter die Lupe genommen
+        und die zehn beliebtesten gekürt: Gewinner unter den internationalen
+        Flughäfen mit einer durchschnittlichen Bewertung von 4,3 von 5
+        Sternen ist der
+        <button
+          aria-label="link"
+          class="prg-button"
+          onclick="window.location.href='https://www.tui.com/service-kontakt/flug/nuernberg-flughafen';"
+          title="https://www.tui.com/service-kontakt/flug/nuernberg-flughafen"
+        >
+          Flughafen Nürnberg
+        </button>
+        . Zwar weist auch der
+        <button
+          aria-label="link"
+          class="prg-button"
+          onclick="window.location.href='https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen';"
+          title="https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen"
+        >
+          Flughafen Münster/Osnabrück
+        </button>
+        eine Durchschnittsbewertung von 4,3 auf, er hat aber mit 1.380
+        deutlich weniger Bewertung als Nürnberg und landet darum auf Platz
+        2.
+      </p>
+    </div>
+    <div class="container">
+      <div class="embed-image-wrapper">
+        <picture>
+          <source
+            srcset="
                   ./img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland.svg
                 "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Die zehn beliebtesten internationalen flughaefen in Deutschland"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="963"
-                            loading="lazy"
-                            src="./img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
+            type="image/svg+xml"
+          >
+          <img
+            alt="Die zehn beliebtesten internationalen flughaefen in Deutschland"
+            class="embed-image-wrapper__image rounded"
+            decoding="async"
+            height="963"
+            loading="lazy"
+            src="./img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland@2x.jpg"
+            width="1084"
+          >
+        </picture>
+      </div>
+      <div class="embed">
+        <div class="embed-content hidden">
+          <div class="embed-title">
+            Du kannst die Grafik ganz einfach mit diesem Embed Code auf
+            deiner Website einbinden:
+          </div>
+          <textarea
+            class="embed-textarea"
+            onclick="this.select();"
+            readonly=""
+          >
 &lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland@2x.jpg" alt="Die zehn beliebtesten internationalen flughaefen in Deutschland"&gt;&lt;/div&gt;
 &lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
                 </textarea
                 >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
         </div>
-        <div class="container container_small">
-            <p>
-                Die regionalen Flughäfen sind insgesamt noch ein bisschen beliebter:
-                Der Airport Mannheim führt das Ranking mit durchschnittlich 4,6 von
-                5 Sternen an. Lahr kommt zwar ebenfalls auf 4,6 Sterne, hat aber
-                deutlich weniger Bewertungen als Mannheim und landet daher auf dem
-                zweiten Platz.
-            </p>
+        <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+      </div>
+    </div>
+    <div class="container container_small">
+      <p>
+        Die regionalen Flughäfen sind insgesamt noch ein bisschen beliebter:
+        Der Airport Mannheim führt das Ranking mit durchschnittlich 4,6 von
+        5 Sternen an. Lahr kommt zwar ebenfalls auf 4,6 Sterne, hat aber
+        deutlich weniger Bewertungen als Mannheim und landet daher auf dem
+        zweiten Platz.
+      </p>
+    </div>
+    <div class="container">
+      <div class="section-tip section-tip_info rounded">
+        <div class="section-tip__icon section-tip__icon_info">
+          <img alt="" height="45" src="img/icons/info-i-icon.svg" width="45">
         </div>
-        <div class="container">
-            <div class="section-tip section-tip_info rounded">
-                <div class="section-tip__icon section-tip__icon_info">
-                    <img alt="" height="45" src="img/icons/info-i-icon.svg" width="45">
-                </div>
-                <p>
-                    Die Bezeichnung „<strong>regionaler Flughafen</strong>” ist in
-                    Deutschland nicht rechtlich definiert und bedeutet nicht zwingend,
-                    dass ausschließlich innerdeutsche Ziele von ihm aus angeflogen
-                    werden: Die Mehrheit der Flüge von Regionalflughäfen sind jedoch
-                    oft Inlandsflüge oder Flüge zu nahegelegenen internationalen
-                    Zielen. Sie sind oftmals Zubringer-Flughäfen zu größeren
-                    Drehkreuzen. Die ADV und die deutschen Luftfahrtbehörden verwenden
-                    den Begriff für Flugplätze mit planmäßigem öffentlichem Verkehr,
-                    sofern diese nicht zu den internationalen Verkehrsflughäfen
-                    zählen.
-                </p>
-            </div>
-            <div class="embed-image-wrapper">
-                <picture>
-                    <source
-                            srcset="
+        <p>
+          Die Bezeichnung „<strong>regionaler Flughafen</strong>” ist in
+          Deutschland nicht rechtlich definiert und bedeutet nicht zwingend,
+          dass ausschließlich innerdeutsche Ziele von ihm aus angeflogen
+          werden: Die Mehrheit der Flüge von Regionalflughäfen sind jedoch
+          oft Inlandsflüge oder Flüge zu nahegelegenen internationalen
+          Zielen. Sie sind oftmals Zubringer-Flughäfen zu größeren
+          Drehkreuzen. Die ADV und die deutschen Luftfahrtbehörden verwenden
+          den Begriff für Flugplätze mit planmäßigem öffentlichem Verkehr,
+          sofern diese nicht zu den internationalen Verkehrsflughäfen
+          zählen.
+        </p>
+      </div>
+      <div class="embed-image-wrapper">
+        <picture>
+          <source
+            srcset="
                   ./img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland.svg
                 "
-                            type="image/svg+xml"
-                    >
-                    <img
-                            alt="Die zehn beliebtesten regionalen flughaefen in Deutschland"
-                            class="embed-image-wrapper__image rounded"
-                            decoding="async"
-                            height="963"
-                            loading="lazy"
-                            src="./img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland@2x.jpg"
-                            width="1084"
-                    >
-                </picture>
-            </div>
-            <div class="embed">
-                <div class="embed-content hidden">
-                    <div class="embed-title">
-                        Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-                        deiner Website einbinden:
-                    </div>
-                    <textarea
-                            class="embed-textarea"
-                            onclick="this.select();"
-                            readonly=""
-                    >
+            type="image/svg+xml"
+          >
+          <img
+            alt="Die zehn beliebtesten regionalen flughaefen in Deutschland"
+            class="embed-image-wrapper__image rounded"
+            decoding="async"
+            height="963"
+            loading="lazy"
+            src="./img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland@2x.jpg"
+            width="1084"
+          >
+        </picture>
+      </div>
+      <div class="embed">
+        <div class="embed-content hidden">
+          <div class="embed-title">
+            Du kannst die Grafik ganz einfach mit diesem Embed Code auf
+            deiner Website einbinden:
+          </div>
+          <textarea
+            class="embed-textarea"
+            onclick="this.select();"
+            readonly=""
+          >
 &lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland@2x.jpg" alt="Die zehn beliebtesten regionalen flughaefen in Deutschland"&gt;&lt;/div&gt;
 &lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
                 </textarea
                 >
-                </div>
-                <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
-            </div>
         </div>
-        <div class="container container_small">
-            <p>
-                <strong>Hinweis:</strong> Durch die deutlich geringere Anzahl an
-                Passagieren, die jährlich von den regionalen Airports abfliegen,
-                fällt auch die Menge der Google-Bewertungen geringer aus. Während
-                der Flughafen Frankfurt am Main mehr als 57.000 Rezensionen
-                sammelte, kommt der regionale Flughafen Lahr auf gerade einmal knapp
-                über 50 Fluggast-Meinungen.
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container container_small">
-            <h2 class="section-title" id="anbindungscheck-deutschland">
-                Airport-Anbindungscheck: 15 deutsche Flughäfen im Vergleich
-            </h2>
-            <p>
-                Ob mit den öffentlichen Verkehrsmitteln, dem Auto oder dem Taxi: Die
-                Anfahrt zum Flughafen bildet den Auftakt in den Urlaub und ist damit
-                kein unwesentlicher Einflussfaktor darauf, wie entspannt Du in den
-                Urlaub startest. Das gilt ebenso für das Ende Deiner Reise –
-                schließlich lässt sich die Urlaubsentspannung besonders gut
-                aufrechterhalten, wenn auch der Heimweg vom Flughafen möglichst
-                stressfrei und günstig vonstatten geht.
-            </p>
-            <p>
-                Einmal am Airport angekommen, geht die Reise erst richtig los: Die
-                Flughäfen Deutschlands bieten Dir eine Vielzahl von Direktflügen zu
-                spannenden Destinationen. Doch nicht alle Airports sind mit ihrem
-                Angebot an direkten Flugverbindungen gleich aufgestellt. Während der
-                <strong
-                >Flughafen Frankfurt mit 296 angebotenen
-                    Direktverbindungen</strong
-                >
-                das Ranking anführt, bieten andere Airports weniger als 20
-                Flugrouten ohne Umstieg an.
-            </p>
-            <p>
-                Wir haben für Dich die direkten Flugverbindungen, die Anbindung mit
-                den öffentlichen Verkehrsmitteln sowie die Parkkosten und Taxipreise
-                an den 15 größten Flughäfen Deutschlands unter die Lupe genommen.
-                Klick Dich durch unsere Tabelle des Airport-Anbindungschecks und
-                erfahre, welche Flughäfen die größte Auswahl an Direktverbindungen
-                bieten und wo Du besonders günstig parken, Taxi fahren oder
-                entspannt mit Bus, Bahn und Co. anreisen kannst.
-            </p>
-        </div>
-        <div class="container container_small">
-            <p>
-                Unter den Destinationen, die am häufigsten pro Monat von den
-                Flughäfen Deutschlands direkt angeflogen werden, schaffen es diese
-                drei auf das Siegertreppchen:
-            </p>
-            <ol>
-                <li>
-              <span
-              >Palma de Mallorca (2.338 angebotene Direktflüge pro
-                Monat)</span
-              >
-                </li>
-                <li>
-                    <span>München (1.666 angebotene Direktflüge pro Monat)</span>
-                </li>
-                <li>
-                    <span>Antalya (1.390 angebotene Direktflüge pro Monat)</span>
-                </li>
-            </ol>
-            <p>
-                Die Goldmedaille für die
-                <strong>günstigsten Parkkosten</strong> geht nach Sachsen: Am
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/service-kontakt/flug/dresden-flughafen';"
-                        title="https://www.tui.com/service-kontakt/flug/dresden-flughafen"
-                >
-                    Airport Dresden
-                </button>
-                kannst Du Deinen Pkw für sieben Tage im günstigsten Tarif für
-                erschwingliche 25 Euro parken. Den
-                <strong>kleinsten Preis für eine Taxifahrt</strong> vom Flughafen
-                zum Hauptbahnhof der Stadt zahlst Du mit etwa 20 Euro am
-                <button
-                        aria-label="link"
-                        class="prg-button"
-                        onclick="window.location.href='https://www.tui.com/service-kontakt/flug/bremen-flughafen';"
-                        title="https://www.tui.com/service-kontakt/flug/bremen-flughafen"
-                >
-                    Bremer Flughafen
-                </button>
-                und wer autofrei mit den öffentlichen Verkehrsmitteln reisen möchte,
-                ist vom
-                <strong
-                >Düsseldorfer Flughafen innerhalb von sieben Minuten mit der Regionalbahn
-                    am schnellsten im Stadtzentrum</strong
-                >.
-            </p>
-        </div>
-    </section>
-
-    <section class="section section-grey">
-        <div class="container container_small">
-            <h2 class="section-title">
-                Fazit: Der Vergleich bei der Flughafenwahl lohnt sich
-            </h2>
-            <p>
-                Unser Flughafen-Report zeigt: In Europas Himmel herrscht reges
-                Treiben und deutsche Urlauber heben an den Airports der
-                Bundesrepublik unterschiedlich günstig, pünktlich und zufrieden ab.
-                Unabhängig von den Parkkosten, der Verspätungsquote oder den
-                Passagier-Bewertungen wählen die meisten Urlauber ihren Abflughafen
-                jedoch nach wie vor aufgrund der Nähe zum Heimatort.
-            </p>
-            <div class="section-tip rounded">
-                <div class="section-tip__icon">
-                    <img alt="" height="59" src="img/icons/tipp.svg" width="51">
-                </div>
-                <p>
-                    <strong>Tipp:</strong> Ein Vergleich der Ticketpreise oder
-                    Flugverbindungen von anderen deutschen Flughäfen lohnt sich
-                    dennoch und kann die Reisemöglichkeiten um ein Vielfaches
-                    erweitern oder bares Geld einsparen. Bei vielen
-                    Pauschalreise-Angeboten ist der Zug zum Flug in Form eines Rail &
-                    Fly Tickets inklusive und ermöglicht die Anreise per Bahn, Bus und
-                    Co. zu deutschen Flughäfen ohne zusätzliche Kosten. Die Wahl des
-                    passenden Airports hilft dabei nicht nur der Urlaubskasse, sondern
-                    auch der guten Laune beim Start in die schönste Zeit des Jahres.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <div class="section section_white">
-        <div class="container">
-            <p class="section-text--grey">
-                <strong>Quellen:</strong> <br>
-                Statista Studie Reisen & Tourismus 2022:
-                https://de.statista.com/statistik/studie/id/109641/dokument/reisen-und-tourismus-in-deutschland/<br>
-                DAK Psycho-Report 2022: https://www.dak.de/dak/unternehmen/reporte-forschung/psychreport-2023_32618<br>
-                AOK: Entspannung und Erholung:
-                https://www.aok.de/fk/betriebliche-gesundheit/psychische-gesundheit/entspannung-und-erholung/<br>
-                Studie: Leisure and Subjective Well-Being: A Model of Psychological Mechanisms as Mediating Factors
-                2013: https://link.springer.com/article/10.1007/s10902-013-9435-x rnd DRAMMA-Modell:
-                https://www.rnd.de/lifestyle/dramma-modell-sechs-tipps-fur-gute-erholung-MEYSMMDTFOINTO7GL7Y4MKFAZ4.html
-                <br>
-                Officebalance DRAMMA-Modell: https://www.officebalance.de/blog/urlaub-Erholung-mit-dem-Dramma-Modell<br>
-                Reisereporter DRAMMA-Modell:
-                https://www.reisereporter.de/reiseinspiration/reisen-als-therapie-wie-urlaub-gegen-depressionen-helfen-kann-YNBNM4QQNQIZSIBOQ6GZUANPNX.html
-                <br>
-                DAK-Urlaubsreport 2022: https://www.dak.de/dak/download/report-2573798.pdf<br>
-                Studie: On the importance of leisure travel for psychosocial wellbeing 2022:
-                https://www.sciencedirect.com/science/article/abs/pii/S0160738322000299?dgcid=rss_sd_all <br>
-                Studie: Would You Be More Satisfied with Your Life If You Travel More Frequently? 2021:
-                https://www.ingentaconnect.com/content/cog/ta/2021/00000026/00000001/art00006%3Bjsessionid=6lg41oh6aqnfh.x-ic-live-02
-                <br>
-                Bundesverband der Deutschen Tourismuswirtschaft e.V.: Urlaub und Gesundheit 2022:
-                https://kompetenzzentrum-tourismus.de/media/urlaub_und_gesundheit_bericht_ergaenzt_april_2022.pdf<br>
-                rnd: Psychische Gesundheit und Meer:
-                https://www.rnd.de/gesundheit/psychische-gesundheit-studien-zeigen-dass-uns-das-meer-gluecklicher-macht-J5T2M6JEG5DY3JYGBNKYNF6WLY.html<br>
-                Studie: Associations between green/blue spaces and mental health across 18 countries 2021:
-                https://www.nature.com/articles/s41598-021-87675-0<br>
-                European Environment Agency State of bathing waters in 2022:
-                https://www.eea.europa.eu/data-and-maps/explore-interactive-maps/state-of-bathing-waters-in-2022<br>
-                Länderdaten.info Küstenlänge: https://www.laenderdaten.info/Europa/index.php<br>
-                Studie: The physiological effects of Shinrin-yoku (taking in the forest atmosphere or forest bathing):
-                evidence from field experiments in 24 forests across Japan:
-                https://environhealthprevmed.biomedcentral.com/articles/10.1007/s12199-009-0086-9<br>
-                Scilog.de: “Go into the forest, come out healthier”:
-                https://scilog.fwf.ac.at/en/biology-and-medicine/17513/go-into-the-forest-come-out-healthier<br>
-                Statistisches Bundesamt: Waldfläche Europa:
-                https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/Tabellen/Basistabelle_WaldFlaeche.html
-                <br>
-                Studie: Inequalities in urban greenness and epigenetic aging 2023:
-                https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10306284/
-            </p>
-        </div>
+        <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+      </div>
     </div>
+    <div class="container container_small">
+      <p>
+        <strong>Hinweis:</strong> Durch die deutlich geringere Anzahl an
+        Passagieren, die jährlich von den regionalen Airports abfliegen,
+        fällt auch die Menge der Google-Bewertungen geringer aus. Während
+        der Flughafen Frankfurt am Main mehr als 57.000 Rezensionen
+        sammelte, kommt der regionale Flughafen Lahr auf gerade einmal knapp
+        über 50 Fluggast-Meinungen.
+      </p>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container container_small">
+      <h2 class="section-title" id="fazit-balance-statt-ballast">
+        Fazit: Reisen bietet großes Potenzial für die Stärkung unserer mentalen Gesundheit
+      </h2>
+      <p>In der heutigen Zeit sind psychische Krankheiten auf einem beispiellosen Höchststand und die Suche nach
+        effektiven Wegen zur Stärkung der mentalen Gesundheit ist dringender denn je. Urlaub und Reisen bieten mit ihrer
+        Alltagsflucht und ihrem Raum für Erholung großes Potenzial, das psychische Wohlbefinden zu fördern.
+      </p>
+      <p>Besonders die Natur und ihre blauen und grünen Flächen spielen hier eine entscheidende Rolle und bilden den
+        Erholungsfaktor schlechthin. Wer sich im satten Grün erholen oder erfrischendes Blau mit allen Sinnen genießen
+        möchte, muss dabei nicht immer lange Distanzen auf sich nehmen: <strong> Europa bietet mit seinen zahlreichen
+          Blue- und
+          Green-Spaces viele dieser erholsamen Landschaften.
+        </strong></p>
+      <p>
+        Die Welt erkunden und dabei mental gesunden? Fast: Eine ärztliche Behandlung ersetzen Urlaub und Reisen zwar
+        nicht, mit den richtigen Rahmenbedingungen tragen sie aber definitiv zur Stärkung der mentalen Gesundheit bei
+        und können eine wirksame Präventionsmaßnahme darstellen.
+      
+      </p>
+    </div>
+  </section>
+  <div class="section section-bottom">
+    <div class="container">
+      <p class="section-text--grey">
+        <strong>Quellen:</strong> <br>
+        Statista Studie Reisen & Tourismus 2022:
+        https://de.statista.com/statistik/studie/id/109641/dokument/reisen-und-tourismus-in-deutschland/<br>
+        DAK Psycho-Report 2022: https://www.dak.de/dak/unternehmen/reporte-forschung/psychreport-2023_32618<br>
+        AOK: Entspannung und Erholung:
+        https://www.aok.de/fk/betriebliche-gesundheit/psychische-gesundheit/entspannung-und-erholung/<br>
+        Studie: Leisure and Subjective Well-Being: A Model of Psychological Mechanisms as Mediating Factors
+        2013: https://link.springer.com/article/10.1007/s10902-013-9435-x rnd DRAMMA-Modell:
+        https://www.rnd.de/lifestyle/dramma-modell-sechs-tipps-fur-gute-erholung-MEYSMMDTFOINTO7GL7Y4MKFAZ4.html
+        <br>
+        Officebalance DRAMMA-Modell: https://www.officebalance.de/blog/urlaub-Erholung-mit-dem-Dramma-Modell<br>
+        Reisereporter DRAMMA-Modell:
+        https://www.reisereporter.de/reiseinspiration/reisen-als-therapie-wie-urlaub-gegen-depressionen-helfen-kann-YNBNM4QQNQIZSIBOQ6GZUANPNX.html
+        <br>
+        DAK-Urlaubsreport 2022: https://www.dak.de/dak/download/report-2573798.pdf<br>
+        Studie: On the importance of leisure travel for psychosocial wellbeing 2022:
+        https://www.sciencedirect.com/science/article/abs/pii/S0160738322000299?dgcid=rss_sd_all <br>
+        Studie: Would You Be More Satisfied with Your Life If You Travel More Frequently? 2021:
+        https://www.ingentaconnect.com/content/cog/ta/2021/00000026/00000001/art00006%3Bjsessionid=6lg41oh6aqnfh.x-ic-live-02
+        <br>
+        Bundesverband der Deutschen Tourismuswirtschaft e.V.: Urlaub und Gesundheit 2022:
+        https://kompetenzzentrum-tourismus.de/media/urlaub_und_gesundheit_bericht_ergaenzt_april_2022.pdf<br>
+        rnd: Psychische Gesundheit und Meer:
+        https://www.rnd.de/gesundheit/psychische-gesundheit-studien-zeigen-dass-uns-das-meer-gluecklicher-macht-J5T2M6JEG5DY3JYGBNKYNF6WLY.html<br>
+        Studie: Associations between green/blue spaces and mental health across 18 countries 2021:
+        https://www.nature.com/articles/s41598-021-87675-0<br>
+        European Environment Agency State of bathing waters in 2022:
+        https://www.eea.europa.eu/data-and-maps/explore-interactive-maps/state-of-bathing-waters-in-2022<br>
+        Länderdaten.info Küstenlänge: https://www.laenderdaten.info/Europa/index.php<br>
+        Studie: The physiological effects of Shinrin-yoku (taking in the forest atmosphere or forest bathing):
+        evidence from field experiments in 24 forests across Japan:
+        https://environhealthprevmed.biomedcentral.com/articles/10.1007/s12199-009-0086-9<br>
+        Scilog.de: “Go into the forest, come out healthier”:
+        https://scilog.fwf.ac.at/en/biology-and-medicine/17513/go-into-the-forest-come-out-healthier<br>
+        Statistisches Bundesamt: Waldfläche Europa:
+        https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/Tabellen/Basistabelle_WaldFlaeche.html
+        <br>
+        Studie: Inequalities in urban greenness and epigenetic aging 2023:
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10306284/
+      </p>
+    </div>
+  </div>
 </main>
 <footer class="footer">
-    <nav class="nav-footer">
-        <ul class="nav-footer--list list">
-            <li>
-                <button
-                        aria-label="link"
-                        class="nav-footer--link"
-                        onclick="window.location.href='https://www.tui.com/impressum/';"
-                >
-                    Impressum
-                </button>
-            </li>
-            <li>
-                <button
-                        aria-label="link"
-                        class="nav-footer--link"
-                        onclick="window.location.href='https://www.tui.com/hilfe/agb/';"
-                >
-                    AGB
-                </button>
-            </li>
-            <li>
-                <button
-                        aria-label="link"
-                        class="nav-footer--link"
-                        onclick="window.location.href='https://www.tui.com/datenschutz-hinweis/';"
-                >
-                    Datenschutz
-                </button>
-            </li>
-            <li>
-                <button
-                        aria-label="link"
-                        class="nav-footer--link"
-                        onclick="window.location.href='https://www.tui.com/hilfe/';"
-                >
-                    Kontakt
-                </button>
-            </li>
-        </ul>
-    </nav>
+  <nav class="nav-footer">
+    <ul class="nav-footer--list list">
+      <li>
+        <a class="nav-footer--link" href='https://www.tui.com/impressum/' target="_blank">
+          Impressum
+        </a>
+      </li>
+      <li>
+        <a class="nav-footer--link" href='https://www.tui.com/hilfe/agb/' target="_blank">
+          AGB
+        </a>
+      </li>
+      <li>
+        <a class="nav-footer--link" href='https://www.tui.com/datenschutz-hinweis/' target="_blank">
+          Datenschutz
+        </a>
+      </li>
+      <li>
+        <a class="nav-footer--link" href='https://www.tui.com/service-kontakt/kontakt/' target="_blank">
+          Kontakt
+        </a>
+      </li>
+    </ul>
+  </nav>
 </footer>
 
 <script src="js/main.js"></script>
