@@ -22,7 +22,7 @@ body {
     color: #092a5e;
     font-weight: 400;
     min-width: 320px;
-    margin: 90px 0 0
+    margin: 47px 0 0
 }
 
 button {
@@ -91,12 +91,6 @@ button {
 
 *, :after, :before {
     box-sizing: inherit
-}
-
-@media (max-width: 999px) {
-    body {
-        margin-top: 47px
-    }
 }
 
 button {
@@ -185,7 +179,7 @@ ul {
 
 
 .section-title {
-    scroll-margin-top: 110px;
+    scroll-margin-top: 92px;
     font-size: 25px;
     color: #092a5e;
     font-weight: 700;
@@ -201,22 +195,6 @@ ul {
     margin-bottom: 30px;
     text-align: center;
     display: block;
-}
-
-@media screen and (max-width: 999px) {
-    .section-title {
-        scroll-margin-top: 92px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .section-title {
-        font-size: 30px;
-    }
-
-    .regular-title {
-        font-size: 28px;
-    }
 }
 
 strong {
@@ -247,13 +225,6 @@ strong {
     color: #fff;
     transition: all 250ms ease-in-out;
     padding: 13px 0;
-}
-
-@media screen and (min-width: 1000px) {
-    .nav {
-        display: flex;
-        align-items: center
-    }
 }
 
 .container--nav {
@@ -301,7 +272,7 @@ strong {
 }
 
 .mobile-menu {
-    display: none;
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -318,10 +289,8 @@ strong {
     padding-top: 80px
 }
 
-@media screen and (max-width: 999px) {
-    .mobile-menu {
-        display: block
-    }
+.mobile-menu.is-open {
+    transform: translateY(0);
 }
 
 .mobile-menu__bar {
@@ -331,12 +300,6 @@ strong {
     width: 100%;
     z-index: 2050;
     background-color: #092a5e
-}
-
-@media (min-width: 1000px) {
-    .mobile-menu__bar {
-        display: none
-    }
 }
 
 .container--mobile-bar {
@@ -383,19 +346,6 @@ strong {
     border: 0;
     margin: 0;
     overflow: visible
-}
-
-@media screen and (min-width: 768px) {
-    .hamburger {
-        top: 11px;
-        right: 52px
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .hamburger {
-        display: none
-    }
 }
 
 .hamburger:hover {
@@ -479,29 +429,10 @@ strong {
     transform: translateY(2px)
 }
 
-@media (max-width: 767px) {
-    .embed-image-wrapper {
-        overflow-x: scroll
-    }
-
-    .embed-image-wrapper__image {
-        max-width: 200% !important;
-    }
-}
 
 .section-bottom {
     padding: 100px 0;
     background: #ffffff;
-}
-
-@media (min-width: 768px) {
-    .section-bottom {
-        padding: 160px 0 200px;
-    }
-
-    .section {
-        padding: 80px 0;
-    }
 }
 
 .section-text--grey {
@@ -520,11 +451,8 @@ strong {
     flex-direction: column
 }
 
-@media (min-width: 776px) and (min-height: 600px) {
-    .footer {
-        justify-content: center;
-        height: 70px
-    }
+.nav-footer {
+    height: 100%;
 }
 
 .nav-footer--list {
@@ -534,12 +462,13 @@ strong {
     max-width: 565px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    height: 100%;
 }
 
 .nav-footer--link {
     font-family: "tuitype-light";
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px 0;
     border: 0;
     outline: 0;
@@ -551,11 +480,6 @@ strong {
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
-    .nav-footer--link {
-        font-size: 16px
-    }
-}
 
 .nav-footer--link:focus, .nav-footer--link:hover {
     color: #70cbf4
@@ -578,4 +502,33 @@ strong {
 
 .swiper-button-next img {
     transform: scale(1.1) rotate(180deg);
+}
+
+.embed-image-wrapper {
+    overflow-x: scroll;
+}
+
+.embed-image-wrapper__image {
+    max-width: 200% !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    height: 16px !important;
+    width: 16px !important;
+    background-color: #FFFFFF4D !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFFFFF !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
 }

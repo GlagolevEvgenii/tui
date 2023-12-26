@@ -74,26 +74,9 @@
     line-height: 1.33;
 }
 
-@media screen and (min-width: 768px) {
-    .main-section {
-        background-position: center center
-    }
-
-    .advice-wrap {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-row-gap: 0;
-    }
-}
 
 .main-section .container {
     height: 100%
-}
-
-@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
-    .main-section {
-        background-image: url(../images/header-wide@2x.webp)
-    }
 }
 
 .main-section-title {
@@ -106,12 +89,6 @@
     color: #fff
 }
 
-@media screen and (min-width: 768px) {
-    .main-section-title {
-        font-size: 50px
-    }
-}
-
 .main-section-title span {
     letter-spacing: 0;
     display: block;
@@ -119,38 +96,19 @@
     font-size: 24px
 }
 
-@media screen and (min-width: 768px) {
-    .main-section-title span {
-        font-size: 36px
-    }
-}
-
-
 .section-figure {
     margin: 40px 0;
 }
 
-@media (min-width: 768px) {
-    .section-figure {
-        display: flex;
-        align-items: center
-    }
+.section-figure img, .section-figure picture {
+    width: 100%;
 }
 
+
 .section-figure__caption {
-    max-width: 552px;
     padding: 32px;
     background: #fff;
     margin-top: 40px
-}
-
-@media (min-width: 768px) {
-    .section-figure__caption {
-        position: absolute;
-        right: 16px;
-        padding: 50px;
-        bottom: 50px;
-    }
 }
 
 .rounded {
@@ -206,7 +164,7 @@
     margin-bottom: 47px;
 
     &.margin-mode {
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 }
 
@@ -287,52 +245,4 @@
     margin: 0 -60px 40px;
 }
 
-@media (min-width: 600px) {
-    .place-block {
-        flex-direction: row;
-    }
-
-    .place-block-info {
-        max-width: 310px;
-        border-radius: 6px 0 0 6px;
-    }
-
-    .place-block-image picture, .place-block-image img {
-        border-radius: 0 6px 6px 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .static-image-wrap {
-        margin: 0 -60px 80px;
-    }
-
-    .detox-wrap {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .image-sea-wrapper {
-        margin: 0 -28px 80px;
-    }
-
-    .section-tip {
-        display: flex;
-        align-items: flex-start;
-        padding-left: 0
-    }
-
-    .section-tip__icon {
-        margin-bottom: 0;
-        display: flex;
-        justify-content: center;
-        flex-shrink: 0;
-        width: 92px;
-        position: relative;
-        top: -5px
-    }
-
-    .section-tip__icon_info {
-        top: 0
-    }
-}
 
