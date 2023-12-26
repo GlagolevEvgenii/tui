@@ -21,6 +21,7 @@
   <link color="#D40E14" href="https://cloud.tui.com/ui/ui-assets/v1/favicons/safari-pinned-tab.svg" rel="mask-icon">
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/common.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -225,7 +226,7 @@
       </p>
       <div class="section-tip section-tip_info rounded">
         <div class="section-tip__icon section-tip__icon_info">
-          <img src="images/icon-info.svg" width="45" height="45" alt="">
+          <img src="images/icon-info.svg" width="45" height="45" alt="icon-info">
         </div>
         <p>
           Ein Ansatz zur Verbesserung der mentalen Gesundheit lautet der Krankenkasse AOK zufolge: Erholung. Demnach ist
@@ -262,166 +263,435 @@
     
     </div>
   </section>
-  <section class="section">
+  <section class="section section-gradient">
     <div class="container container_small">
-      <h2 class="section-title">
-        Google Ranking: Deutschlands beliebteste Flughäfen
-      </h2>
-    </div>
-  </section>
-  
-  
-  <section class="section">
-    <div class="container container_small">
-      <h2 class="section-title">
-        Google Ranking: Deutschlands beliebteste Flughäfen
-      </h2>
       <p>
-        Wie zufrieden sind die Passagiere an den internationalen und
-        regionalen Flughäfen in Deutschland? Wir haben die
-        Google-Rezensionen der deutschen Airports unter die Lupe genommen
-        und die zehn beliebtesten gekürt: Gewinner unter den internationalen
-        Flughäfen mit einer durchschnittlichen Bewertung von 4,3 von 5
-        Sternen ist der
-        <button
-          aria-label="link"
-          class="prg-button"
-          onclick="window.location.href='https://www.tui.com/service-kontakt/flug/nuernberg-flughafen';"
-          title="https://www.tui.com/service-kontakt/flug/nuernberg-flughafen"
-        >
-          Flughafen Nürnberg
-        </button>
-        . Zwar weist auch der
-        <button
-          aria-label="link"
-          class="prg-button"
-          onclick="window.location.href='https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen';"
-          title="https://www.tui.com/service-kontakt/flug/muenster-osnabrueck-flughafen"
-        >
-          Flughafen Münster/Osnabrück
-        </button>
-        eine Durchschnittsbewertung von 4,3 auf, er hat aber mit 1.380
-        deutlich weniger Bewertung als Nürnberg und landet darum auf Platz
-        2.
+        Die gute Nachricht für alle Globetrotter und Reisebegeisterten: Ein Urlaub bietet die optimalen Voraussetzungen,
+        um allen sechs Dimensionen gerecht zu werden. Unsere Slideshow zeigt Dir wie.
       </p>
     </div>
     <div class="container">
-      <div class="embed-image-wrapper">
-        <picture>
-          <source
-            srcset="
-                  ./img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland.svg
-                "
-            type="image/svg+xml"
-          >
-          <img
-            alt="Die zehn beliebtesten internationalen flughaefen in Deutschland"
-            class="embed-image-wrapper__image rounded"
-            decoding="async"
-            height="963"
-            loading="lazy"
-            src="./img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland@2x.jpg"
-            width="1084"
-          >
-        </picture>
+      <div class="slider-wrapper">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/detachment.avif    1x,./images/slider/detachment@2x.avif 2x">
+                  <img src="./images/slider/detachment.jpg" alt="detachment" width="460" height="320" loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Detachment: Abenteuer statt Alltagstrott</h6>
+                <p class="content-text">
+                  Auf Reisen gewinnst Du buchstäblich Abstand zu Deiner gewohnten Umgebung und distanzierst Dich
+                  räumlich vom Alltagstrott und all seinen Verpflichtungen. Wichtig ist, dass auch der Kopf am
+                  Urlaubsziel ankommt und nicht am Stress und an den Sorgen des Alltages haften bleibt. Mit dem
+                  Ortswechsel und den neuen Eindrücken, die am Urlaubsziel auf Dich warten, <strong> bietest Du Deinem
+                  Gehirn
+                  viele neue Reize, auf die es sich konzentrieren muss </strong>. Das liefert optimale Voraussetzungen,
+                  um die
+                  Gedankenspiralen des alltäglichen Lebens loszulassen.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/relaxation.avif    1x,./images/slider/relaxation@2x.avif 2x">
+                  <img src="./images/slider/relaxation.jpg" alt="relaxation" width="460" height="320" loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Relaxation: Entspannung und Stressabbau</h6>
+                <p class="content-text">Um auf Reisen die Gesundheit zu stärken, machen deutsche Urlauber vor allem
+                  eines: <strong> Stress reduzieren – das gaben 73 % der Befragten des DAK-Urlaubsreports 2022
+                    an</strong>. Sei es das
+                  süße Nichtstun, sportliche Betätigung oder Zeit in der Natur zu verbringen: Im Urlaub kannst Du Dich
+                  den Aktivitäten widmen, die Dir wirklich gut tun und Dich entspannen lassen.</p>
+              </div>
+            </div>
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/autonomie.avif    1x,./images/slider/autonomie@2x.avif 2x">
+                  <img src="./images/slider/autonomie.jpg" alt="autonomie" width="460" height="320" loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Autonomie: Selbstbestimmt erholt</h6>
+                <p class="content-text">
+                  Fremdbestimmtheit adé: Die freie Zeit auf Reisen gibt Dir die Möglichkeit, frei im Hier und Jetzt zu
+                  entscheiden, welcher Tätigkeit Du wirklich nachgehen möchtest – unabhängig vom Terminkalender, den
+                  Erwartungen anderer oder den Verpflichtungen im Job. Das schenkt nicht nur ein <strong> Gefühl von
+                  Freiheit</strong>,
+                  sondern hilft auch dabei, die eigenen Bedürfnisse bewusst wahrzunehmen und in ihrem Sinne zu handeln.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/mastery.avif    1x,./images/slider/mastery@2x.avif 2x">
+                  <img src="./images/slider/mastery.jpg" alt="mastery" width="460" height="320" loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Mastery: Reisen kann Dein Selbstvertrauen stärken</h6>
+                <p class="content-text">
+                  Fremde Sprache, anderes Klima, ungewohnte Umgebung: Auf Reisen geraten wir in alltagsfremde
+                  Situationen, sehen uns mit <strong> neuen Herausforderungen konfrontiert</strong> und müssen immer
+                  wieder Lösungen
+                  finden. Meistern wir diese Umstände, kann das unser Selbstvertrauen stärken und das Gefühl von
+                  Hilflosigkeit mindern.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/meaningfulness.avif    1x,./images/slider/meaningfulness@2x.avif 2x">
+                  <img src="./images/slider/meaningfulness.jpg" alt="meaningfulness" width="460" height="320"
+                       loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Meaningfulness: Erfahrungen mit Sinn</h6>
+                <p class="content-text">
+                  Um auf einer Reise Sinnhaftigkeit zu erleben, muss es nicht zwangsläufig der Charity-Urlaub, das
+                  Fitness-Camp oder die Sprachreise sein. Aktivitäten, mit denen Du im Urlaub <strong>ehrenamtlich
+                  Hilfe
+                  leistest oder etwas lernst</strong>, sind zweifelsohne tolle Möglichkeiten, um Sinnhaftigkeit zu
+                  erleben.
+                  Gleichzeitig kann es für Dich selbst bereits von großer Bedeutung sein, auf Reisen<strong> neue
+                  Kulturen
+                  kennenzulernen, etwas für Deine innere Ruhe zu tun oder Erinnerungen zu sammeln</strong>, von denen Du
+                  im
+                  Nachhinein noch lange zehren kannst.
+                
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide item-slider">
+              <div class="item-slider-img">
+                <picture>
+                  <source type="image/avif"
+                          srcset="./images/slider/affiliation.avif    1x,./images/slider/affiliation@2x.avif 2x">
+                  <img src="./images/slider/affiliation.jpg" alt="affiliation" width="460" height="320"
+                       loading="lazy"
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="item-slider-content">
+                <h6 class="content-title">Affiliation: Zwischen Austausch und Abstand</h6>
+                <p class="content-text">
+                  Ob die Sehnsucht nach Einsamkeit und Ruhe oder die Neugierde auf neue Begegnungen und Austausch: Auf
+                  Reisen haben wir eher die Möglichkeit, menschenleere Orte aufzusuchen oder uns bewusst ins Getümmel zu
+                  stürzen. Auf Reisen lässt sich soziale Interaktion meist besser regulieren. Während im Alltag die
+                  Rahmenbedingungen durch den Job, das Umfeld oder den Wohnort meist festgelegt sind,<strong> schenkt
+                  uns der
+                  Urlaub mehr Freiheit</strong>. Gleichzeitig kann das Kennenlernen neuer Menschen und Kulturen dabei
+                  helfen,
+                  eine<strong> frische Perspektive auf uns selbst</strong> einzunehmen.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"><img src="images/arrow_left.svg" width="57" height="57" alt="icon-info"></div>
+        <div class="swiper-button-next"><img src="images/arrow_left.svg" width="57" height="57" alt="icon-info"></div>
       </div>
       <div class="embed">
-        <div class="embed-content hidden">
-          <div class="embed-title">
-            Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-            deiner Website einbinden:
-          </div>
-          <textarea
-            class="embed-textarea"
-            onclick="this.select();"
-            readonly=""
-          >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-zehn-beliebtesten-internationalen-flughaefen-in-deutschland@2x.jpg" alt="Die zehn beliebtesten internationalen flughaefen in Deutschland"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-        </div>
         <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
       </div>
     </div>
+  </section>
+  <section class="section section-white">
     <div class="container container_small">
       <p>
-        Die regionalen Flughäfen sind insgesamt noch ein bisschen beliebter:
-        Der Airport Mannheim führt das Ranking mit durchschnittlich 4,6 von
-        5 Sternen an. Lahr kommt zwar ebenfalls auf 4,6 Sterne, hat aber
-        deutlich weniger Bewertungen als Mannheim und landet daher auf dem
-        zweiten Platz.
+        Bei ernsthaften psychischen Erkrankungen ersetzt ein Urlaub zweifelsohne keine Therapie. Dennoch kann das Reisen
+        einige positive Effekte auf das mentale Wohlbefinden haben und die Behandlung unterstützen.
       </p>
-    </div>
-    <div class="container">
-      <div class="section-tip section-tip_info rounded">
-        <div class="section-tip__icon section-tip__icon_info">
-          <img alt="" height="45" src="img/icons/info-i-icon.svg" width="45">
+      <p>
+        Eine Untersuchung der Universität Wien bestätigt,<strong> dass Freizeittourismus unser Wohlbefinden
+        fördert</strong>. Zudem kam
+        eine Forschungsarbeit aus Taiwan zu dem Ergebnis, dass Menschen, die besonders häufig reisen, zufriedener mit
+        ihrem Leben sind als Personen, die dies weniger tun.
+      </p>
+      <p>
+        Der Bericht „Urlaub und Gesundheit” des Bundesverbandes der Deutschen Tourismuswirtschaft e.V. aus dem Jahr 2022
+        zeigt außerdem, dass Personen, die regelmäßig Urlaub machen:
+      </p>
+      <div class="advice-wrap">
+        <div class="advice-item">
+          <div class="advice-item-image"><img src="images/icon_positiv.svg" width="100" height="100" alt="icon-info">
+          </div>
+          <div class="advice-item-title">ihren Gesundheitszustand <br>positiver bewerten</div>
         </div>
-        <p>
-          Die Bezeichnung „<strong>regionaler Flughafen</strong>” ist in
-          Deutschland nicht rechtlich definiert und bedeutet nicht zwingend,
-          dass ausschließlich innerdeutsche Ziele von ihm aus angeflogen
-          werden: Die Mehrheit der Flüge von Regionalflughäfen sind jedoch
-          oft Inlandsflüge oder Flüge zu nahegelegenen internationalen
-          Zielen. Sie sind oftmals Zubringer-Flughäfen zu größeren
-          Drehkreuzen. Die ADV und die deutschen Luftfahrtbehörden verwenden
-          den Begriff für Flugplätze mit planmäßigem öffentlichem Verkehr,
-          sofern diese nicht zu den internationalen Verkehrsflughäfen
-          zählen.
-        </p>
+        <div class="advice-item">
+          <div class="advice-item-image"><img src="images/icon_gesundheit.svg" width="100" height="100" alt="icon-info">
+          </div>
+          <div class="advice-item-title">isich weniger Sorgen um <br> ihre Gesundheit machen</div>
+        </div>
+        <div class="advice-item">
+          <div class="advice-item-image"><img src="images/icon_zufrieden.svg" width="100" height="100" alt="icon-info">
+          </div>
+          <div class="advice-item-title">allgemein zufriedener <br> mit ihrem Leben sind</div>
+        </div>
       </div>
+    </div>
+  </section>
+  <section class="section section-gradient">
+    <div class="container container_small">
+      <h2 class="section-title">
+        Erholungsgarant Sommerurlaub: So gut schalten die Deutschen ab
+      </h2>
+      <p>
+        Gerade in der Urlaubszeit lässt sich fernab der alltäglichen Termine und Verpflichtungen besonders gut Zeit für
+        Entspannung und Erholung finden. Laut des DAK-Urlaubsreports 2022 gelingt das den deutschen Reisenden
+        außerordentlich gut: 83 % der befragten <strong>Urlauber haben sich in ihrem Sommerurlaub gut (43 %) oder sogar
+        sehr gut
+        (40%) erholt. Lediglich 4 % haben sich gar nicht erholt</strong>. Ein Blick auf Deutschland zeigt, dass es auch
+        regionale
+        Unterschiede hinsichtlich des Erholungsniveaus im Urlaub gibt. Die Menschen in Baden-Württemberg fanden während
+        ihrer Urlaubsreise am meisten Entspannung: 52 % erholten sich sogar sehr gut. 
+      </p>
       <div class="embed-image-wrapper">
-        <picture>
-          <source
-            srcset="
-                  ./img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland.svg
-                "
-            type="image/svg+xml"
-          >
-          <img
-            alt="Die zehn beliebtesten regionalen flughaefen in Deutschland"
-            class="embed-image-wrapper__image rounded"
-            decoding="async"
-            height="963"
-            loading="lazy"
-            src="./img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland@2x.jpg"
-            width="1084"
-          >
-        </picture>
+        <img src="images/infographic/Im_Urlaub_erholt.svg" alt="Natur_pur_ist_gefragt" loading="lazy"
+             decoding="async" class="embed-image-wrapper__image rounded">
       </div>
       <div class="embed">
-        <div class="embed-content hidden">
-          <div class="embed-title">
-            Du kannst die Grafik ganz einfach mit diesem Embed Code auf
-            deiner Website einbinden:
-          </div>
-          <textarea
-            class="embed-textarea"
-            onclick="this.select();"
-            readonly=""
-          >
-&lt;div&gt;&lt;img style="max-width:100%;" src="BASE_URL/img/infografiken/die-zehn-beliebtesten-regionalen-flughaefen-in-deutschland@2x.jpg" alt="Die zehn beliebtesten regionalen flughaefen in Deutschland"&gt;&lt;/div&gt;
-&lt;p&gt;Mehr Informationen gibt es auf &lt;a href="https://www.tui.com/flughafen-report/" target="_blank"&gt;tui.com&lt;/a&gt;.&lt;/p&gt;
-                </textarea
-                >
-        </div>
         <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
       </div>
     </div>
+  </section>
+  <section class="section section-white">
     <div class="container container_small">
+      <h2 class="section-title">
+        Sommer + Sonne + Strand = Erholung? Weniger für Millennials
+      </h2>
       <p>
-        <strong>Hinweis:</strong> Durch die deutlich geringere Anzahl an
-        Passagieren, die jährlich von den regionalen Airports abfliegen,
-        fällt auch die Menge der Google-Bewertungen geringer aus. Während
-        der Flughafen Frankfurt am Main mehr als 57.000 Rezensionen
-        sammelte, kommt der regionale Flughafen Lahr auf gerade einmal knapp
-        über 50 Fluggast-Meinungen.
+        Das gilt jedoch nicht für alle Altersgruppen gleichermaßen: Gehörst Du zu den Millennials (30-44 Jahre)? Dann
+        bist Du Teil der Generation, die sich am häufigsten „weniger” bis „gar nicht gut” erholt. Die <strong> Best Ager
+        hingegen
+        sind die Erholungs-Experten</strong> im Generationenvergleich: Dem DAK-Urlaubsreport 2022 zufolge erholen sich
+        89 % der
+        Babyboomer und 88 % der Generation X (sehr) gut in ihrem Urlaub.
+      </p>
+      <div class="static-image-wrap">
+        <div class="embed-image-wrapper">
+          <img src="images/infographic/Wer_erholt_sich_am_besten.svg" alt="Natur_pur_ist_gefragt" loading="lazy"
+               decoding="async" class="embed-image-wrapper__image rounded">
+        </div>
+        <div class="embed">
+          <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+        </div>
+      </div>
+      <h2 class="section-title">
+        Natürlich erholt: So tanken die Deutschen im Urlaub auf
+      </h2>
+      <p>
+        Ob Waldbaden oder ein Sprung ins Meer – die Antwort auf die Frage, was unseren Urlaub am erholsamsten macht,
+        lautet ganz eindeutig: Natur pur. Laut der DAK haben Sonne und Natur für 84 % der Deutschen in besonderem Maße
+        zur Erholung im Urlaub beigetragen.
+      </p>
+      <div class="embed-image-wrapper">
+        <img src="images/infographic/Natur_pur_ist_gefragt.svg" alt="Natur_pur_ist_gefragt" loading="lazy"
+             decoding="async" class="embed-image-wrapper__image rounded">
+      </div>
+      <div class="embed">
+        <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+      </div>
+    </div>
+  </section>
+  <section class="section section-gradient section-background">
+    <div class="container container_small">
+      <h2 class="section-title">
+        Urlaub am Meer, See und Fluss: So holt uns Europas Blau aus dem Blues
+      </h2>
+      <p>
+        Welche natürlichen Umgebungen der mentalen Gesundheit dabei besonders gut tun, untersuchte eine 2021
+        veröffentlichte Studie des Umweltpsychologen Mathew P. White. Die Forschenden nahmen hierfür eine Unterteilung
+        in grüne (z. B. Parks und Wälder) und blaue Räume (z. B. Flüsse, Seen und das Meer) vor.
+      </p>
+      <p>
+        <strong>Das Ergebnis zur Wirkung der Gewässer</strong>: Das Leben in Küstennähe lässt sich mit einem
+        durchschnittlich besseren
+        Wohlbefinden verbinden. Jedoch ruft nicht allein der Aufenthalt in bloßer Nähe des Gewässers diesen positiven
+        Effekt hervor. Erst das Spüren des Wassers mit allen Sinnen lässt die „Blau-Pause” ihre volle Wirkung entfalten.
+        Der Tipp lautet also: Runter von der Sonnenliege und rein ins kühle Nass!
+      </p>
+      <p>
+        Die folgende Karte zeigt Dir die küstenreichsten Länder Europas für Deine nächste Urlaubsauszeit im wohltuenden
+        „Blue-Space”:
+      </p>
+      <div class="image-sea-wrapper">
+        <div class="embed-image-wrapper custom-size">
+          <img style="max-width:100%; margin:0 auto"
+               src="https://contenthost.org/tui/reisen-und-mental-health/img/infographic/Blaues_Europa.svg"
+               alt="Blaues Europa" loading="lazy" decoding="async" class="embed-image-wrapper__image rounded">
+        </div>
+        <div class="embed">
+          <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+        </div>
+      </div>
+      <p>
+        Laut der FUR Reisetrends 2023 ist und bleibt das liebste Reiseziel der Deutschen das eigene Land. Mit 90,2 % an
+        Badestellen mit ausgezeichneter <strong> Wasserqualität liegt die Bundesrepublik damit sogar über dem
+        europäischen
+        Durchschnitt</strong> und sichert sich den neunten Platz unter den europäischen Top 10:
+      
+      </p>
+      <div class="place-block">
+        <div class="place-block-info">
+          <div class="info-item"><strong>Platz 1:</strong><span>Zypern (99,2 %)</span></div>
+          <div class="info-item"><strong>Platz 2:</strong><span>Österreich (96,9 %)</span></div>
+          <div class="info-item"><strong>Platz 3:</strong><span>Griechenland (96,6 %)</span></div>
+          <div class="info-item"><strong>Platz 4:</strong><span>Kroatien (95,6 %)</span></div>
+          <div class="info-item"><strong>Platz 5:</strong><span>Dänemark (94,3 %)</span></div>
+          <div class="info-item"><strong>Platz 6:</strong><span>Malta (94,3 %)</span></div>
+          <div class="info-item"><strong>Platz 7:</strong><span>Bulgarien (92,7 %)</span></div>
+          <div class="info-item"><strong>Platz 8: </strong><span>Rumänien (92 %)</span></div>
+          <div class="info-item"><strong>Platz 9:</strong><span>Deutschland (90,2 %)</span></div>
+          <div class="info-item"><strong>Platz 10:</strong><span>Italien (89,6 %)</span></div>
+        </div>
+        <div class="place-block-image">
+          <picture>
+            <source type="image/avif" srcset="./images/badeseen.avif    1x,./images/badeseen@2x.avif 2x">
+            <img src="./images/badeseen.jpg" alt="badeseen" width="614" height="390" loading="lazy" decoding="async">
+          </picture>
+        </div>
+      </div>
+      <p>
+        ür den nächsten Deutschland-Trip zugunsten der mentalen Gesundheit bietet sich neben Nord- und Ostsee auch ein
+        Urlaub an einem der schönsten Seen des Landes an. Auf dem TUI-Reiseblog findest Du weitere Informationen und
+        Tipps zu den <a href='https://www.tui.com/blog/die-schoensten-badeseen-deutschland/' target="_blank">schönsten
+        Badeseen Deutschlands</a>.
       </p>
     </div>
   </section>
-  
-  <section class="section">
+  <section class="section section-white">
+    <div class="container container_small">
+      <h2 class="section-title">
+        Grün, Grün, Grün ist alles was ich brauche: Waldbaden und Park-Spaziergänge für den inneren Frieden
+      </h2>
+      <p>
+        Waldbaden als Wohltat für Körper und Geist ist schon lange kein Geheimtipp mehr. Schon in den 90er Jahren
+        verschrieben japanische Ärzte „Shinrin-yoku”, das Eintauchen in die Atmosphäre des Waldes. Und auch neueste
+        Forschungen des „Dr. Forest"-Projekts zeigen, dass nicht nur Geruch, Luft und Waldgeräusche eine wichtige Rolle
+        für die Menschen spielen, sondern auch die Farben Grün und Blau für Entspannung sorgen. <strong> So sinken bei
+        einem
+        Besuch im Wald unter anderem der Blutdruck und die Stresshormone.</strong>
+      </p>
+      <p>
+        Genügend Gründe, um für Deine nächste mentale Auszeit einen Urlaub im Grünen zu planen. Im Europa-Ranking der
+        Waldflächen siehst Du, welche Länder besonders viele waldige Flächen zu bieten haben. Laut des statistischen
+        Bundesamtes sind ganz vorn mit dabei: <strong>Finnland (73,7 %Waldfläche), Schweden (68,7 %) und Slowenien (61,6
+        %).</strong>
+      </p>
+      <div class="embed-image-wrapper">
+        <img style="max-width:100%; margin:0 auto"
+             src="https://contenthost.org/tui/reisen-und-mental-health/img/infographic/Waldbaden_in_Europa.svg"
+             alt="Waldbaden in Europa">
+      </div>
+      <div class="embed">
+        <button class="embed-button">&lt;/&gt; Grafik einbetten</button>
+      </div>
+    </div>
+  </section>
+  <section class="section section-gradient">
+    <div class="container container_small">
+      <h2 class="section-title" id="2">
+        Deine Erholung auf das nächste Level bringen? Tipps für Deine Urlaubszeit
+      </h2>
+      <p class="mb-60">
+        Schon oft gesehen und selbst dabei ertappt: <strong> Ab in die Natur, aber eigentlich nur am Handy?</strong> Für
+        eine wirksame
+        Erholung gehört nicht nur die richtige Umgebung dazu, sondern auch die entsprechende Aktivität. Denn laut des
+        DAK Urlaubsreports 2022 tragen auch <strong>Zeit für sich selbst, Bewegung bzw. Sport und der Verzicht auf das
+        Handy und
+        Internet </strong> zur Erholung bei. Wie kannst Du also aktiv Deine Erholung steigern?
+      </p>
+      <span class="regular-title">Das sind TUI’s Top-Tipps für Entspannung im Urlaub:</span>
+    </div>
+    <div class="container">
+      <div class="detox-wrap">
+        <div class="detox-item">
+          <div class="detox-item__img">
+            <img src="images/icon_tipps_detox.svg" width="70" height="66" alt="icon-info">
+          </div>
+          <div class="detox-item__title margin-mode">Zeit für Dich selbst & <br> Digital Detox</div>
+          <ul class="detox-list">
+            <li class="detox-list-item">
+              Wusstest Du, dass Lesen Stress reduzieren kann? Schnapp Dir ein gutes Buch und tauche in spannende
+              Geschichten ein. Das kann Dir dabei helfen, den Alltag zu vergessen und Dich zu entspannen.
+            </li>
+            <li class="detox-list-item">
+              Beschäftige all Deine Sinne: Was ist dein absolutes Soulfood? Besorge die notwendigen Zutaten und nimm Dir
+              die Zeit, Dein Essen im Urlaub frisch zuzubereiten, mache einen Kochkurs oder entdecke die kulinarischen
+              Köstlichkeiten des Urlaubslandes auf Märkten und in Restaurants. 
+            </li>
+          </ul>
+        </div>
+        <div class="detox-item">
+          <div class="detox-item__img">
+            <img src="images/icon_tipps_bewegung.svg" width="52" height="70" alt="icon-info">
+          </div>
+          <div class="detox-item__title">Bewegung</div>
+          <ul class="detox-list">
+            <li class="detox-list-item">
+              Es muss nicht gleich ein Marathon sein: Wer klein anfangen möchte, beginnt am besten mit einem Spaziergang
+              oder einer Radtour und kann dabei noch die Urlaubsumgebung erkunden.
+            </li>
+            <li class="detox-list-item">
+              Auch Schwimmen ist eine gute Möglichkeit, sanft mehr Bewegung in den Urlaubstag zu integrieren und bietet
+              sich besonders bei einem Badeurlaub an.
+            </li>
+            <li class="detox-list-item">
+              Es gibt natürlich auch Sportarten, die sich ganz bewusst der Erholung von Geist und Körper widmen, wie zum
+              Beispiel Yoga oder Qi Gong. Wenn Du nicht gerade ein Yoga-Retreat für Deinen Urlaub gebucht hast, kannst
+              Du dank Online Videos nahezu überall an einem Yogakurs teilnehmen. Außerdem kannst du ebenfalls die
+              Sportangebote Deines Hotels oder von lokalen Anbietern im Urlaubsort checken und einen Schnupperkurs
+              machen.
+            </li>
+          </ul>
+        </div>
+        <div class="detox-item">
+          <div class="detox-item__img">
+            <img src="images/icon_tipps_nichtstun.svg" width="70" height="70" alt="icon-info">
+          </div>
+          <div class="detox-item__title">Süßes Nichtstun</div>
+          <ul class="detox-list">
+            <li class="detox-list-item">
+              Meditation oder Achtsamkeitsübungen zählen zu den bekanntesten Techniken, um zur Ruhe zu kommen.
+            </li>
+            <li class="detox-list-item">
+              Wellness-Anwendungen und Spa-Besuche, aber auch das bewährte Nickerchen am Nachmittag können Dich so
+              richtig entschleunigen lassen und Deinem Körper und Geist guttun.
+            </li>
+            <li class="detox-list-item">
+              Aber auch im wortwörtlichen Sinn, kann das „Nichtstun“ und das Absagen von Urlaubsaktivitäten, zu denen Du
+              nur aus Pflichtgefühl zugestimmt hast, für Erleichterung sorgen. Widme Dich in Deiner schönsten Zeit im
+              Jahr ganz bewusst den Dingen, die Dir persönlich Freude machen und lasse die Aktivitäten weg, die dir kein
+              gutes Gefühl geben.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-white">
     <div class="container container_small">
       <h2 class="section-title" id="fazit-balance-statt-ballast">
         Fazit: Reisen bietet großes Potenzial für die Stärkung unserer mentalen Gesundheit
@@ -516,9 +786,8 @@
     </ul>
   </nav>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/index.js" type="module"></script>
 </body>
 
 </html>
