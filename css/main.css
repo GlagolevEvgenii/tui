@@ -90,10 +90,6 @@
     height: 100%
 }
 
-body.noWebp .main-section {
-    background-image: url(../images/header.jpg)
-}
-
 @media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
     .main-section {
         background-image: url(../images/header-wide@2x.webp)
@@ -338,19 +334,5 @@ body.noWebp .main-section {
     .section-tip__icon_info {
         top: 0
     }
-
-    .section-lists-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 23px 82px
-    }
-
-    .section-lists-wrapper__list {
-        width: 368px
-    }
-}
-
-.section-lists-wrapper {
-    margin: 23px 0
 }
 
