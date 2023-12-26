@@ -1,3 +1,9 @@
+@media (min-width: 480px) {
+    .swiper {
+        height: 777px;
+    }
+}
+
 @media (min-width: 600px) {
     .place-block {
         flex-direction: row;
@@ -10,6 +16,10 @@
 
     .place-block-image picture, .place-block-image img {
         border-radius: 0 6px 6px 0;
+    }
+
+    .swiper {
+        height: 756px;
     }
 }
 
@@ -141,6 +151,15 @@
     .section-title {
         scroll-margin-top: 110px;
     }
+
+    .item-slider-content {
+        padding: 30px 40px;
+    }
+
+    .swiper {
+        height: 756px;
+    }
+
 }
 
 
